@@ -1,0 +1,2 @@
+create table Layered_Employee(eno number(5) primary key, ename varchar2(15),eadd varchar2(15), DOJ date, bsal float,grossSal float, netsal float);
+create sequence empno_seq start with 101 increment by 1;
